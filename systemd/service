@@ -1,0 +1,14 @@
+[Unit]
+Description=Silvestr BLE Tag Scanner
+Wants=network-online.target
+After=network-online.target bluetooth.target
+
+[Service]
+User=oleksandr
+WorkingDirectory=/home/oleksandr/silvestr
+ExecStart=/home/oleksandr/silvestr/venv/bin/python /home/oleksandr/silvestr/scan_bleak.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
