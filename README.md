@@ -8,3 +8,6 @@ Developed an IoT-based indoor tracking system using two Raspberry Pi Zero 2 W de
 - **System Design:** Explored multi-device signal comparison to identify the closest Raspberry Pi and reduce duplicate location reports.
 
 **Technologies:** Python, Raspberry Pi, Linux, Bluetooth Low Energy (BLE), FastAPI, REST APIs, SSH, systemd, asyncio.
+
+<img width="781" height="300" alt="image" src="https://github.com/user-attachments/assets/1d5d018d-c44f-4665-b129-9b42d5f37543" />
+
